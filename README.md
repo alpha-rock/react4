@@ -1,4 +1,4 @@
-# Project Done when I was at exchange semester at HTW Berlin
+# Data Viz Project | I was at exchange semester at HTW Berlin
 ### https://alpha-rock.github.io/react4/
 ### Guide : Marco Kade
 
