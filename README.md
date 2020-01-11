@@ -4,8 +4,8 @@
 
 This project uses react-map-gl | you can find it here -->> https://uber.github.io/react-map-gl/#/
 ### Credits to my guide Marco, my brother Akash Sisodiya and my friend Rajat Kumar
-
+to run the project 
 #### Clone the project on your desktop
-#### cd react-gh-pages
+#### $cd react-gh-pages
 #### $npm install 
-#### $npm start to run the project 
+#### $npm start 
