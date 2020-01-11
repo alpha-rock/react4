@@ -6,5 +6,6 @@ This project uses react-map-gl | you can find it here -->> https://uber.github.i
 ### Credits to my guide Marco, my brother Akash Sisodiya and my friend Rajat Kumar
 
 #### Clone the project on your desktop
+#### cd react-gh-pages
 #### $npm install 
 #### $npm start to run the project 
