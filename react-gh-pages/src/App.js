@@ -79,6 +79,7 @@ export default class App extends Component {
           <div>Country :<b> {hoveredFeature.properties.name}</b></div>
           <div>Death per 100000 people: <b>{hoveredFeature.properties.value}</b></div>
           <div>Percentile: <b>{(hoveredFeature.properties.percentile / 8) * 100}</b></div>
+          <div>Code: <b>{hoveredFeature.properties.sov_a3}</b></div>
         </div>
       )
     );

@@ -22,6 +22,7 @@ export default class ControlPanel extends PureComponent {
         <br></br>
         <div key={'year'} className="input">
           <label>YEAR</label>
+          <br></br>
           1990
           <input
             type="range"
@@ -32,10 +33,13 @@ export default class ControlPanel extends PureComponent {
             onChange={evt => this.props.onChange('year', evt.target.value)}
           />2017
         </div>
-        
+        <br></br>
         <p>
           Data source: <a href="http://ghdx.healthdata.org/gbd-results-tool">United States: Institute for Health Metrics and Evaluation (IHME)</a>
         </p>
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Show in charts
+    </button>
         <div className="source-link">
           <a
             href="https://uber.github.io/react-map-gl/"
