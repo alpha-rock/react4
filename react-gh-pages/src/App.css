@@ -1,7 +1,7 @@
 #root {
   padding: 10px;
   height: 80vh;
-  background: linear-gradient(to right, #232526, #414345);
+  background: linear-gradient(121deg, rgba(0,0,0,1) 0%, rgb(20, 20, 20) 35%, rgba(15,15,15,1) 100%);
 }
 .App {
   text-align: center;
@@ -57,7 +57,8 @@ body {
   left: 0;
   border-radius: 5px;
   max-width: 270px;
-  background: #000000;
+  background: rgb(0,0,0);
+  background: linear-gradient(121deg, rgba(0,0,0,1) 0%, rgb(20, 20, 20) 35%, rgba(15,15,15,1) 100%);
   box-shadow: 0 2px 4px rgba(0,0,0,0.3);
   padding: 12px 24px;
   margin: 20px;
@@ -116,4 +117,60 @@ input::-webkit-slider-thumb {
 .lege{
   background: linear-gradient(to right, #fff, #ff0000);
   color: #000000;
+}
+
+path {
+  stroke: #ccc;
+  stroke-width: 2;
+  fill: none;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: grey;
+  stroke-width: 1;
+  shape-rendering: crispEdges;
+}
+#legendContainer{
+position:absolute;
+top:60px;
+left:10px;
+overflow: auto;
+height:490px;
+width:110px;
+}
+#legend{
+width:90px;
+height:200px;
+}
+.legend {
+  font-size: 12px;
+  font-weight: normal;
+  text-anchor: left;
+}
+.legendcheckbox{
+cursor: pointer;
+}
+#showAll{
+position:absolute;
+top:600px;
+left:880px;
+}
+#clearAll{
+position:absolute;
+top:600px;
+left:950px;
+}
+input{
+border-radius:5px;
+padding:5px 10px;
+background:#999;
+border:0;
+color:#fff;
+}
+#inds{
+position:absolute;
+top:10px;
+left:10px;
 }
